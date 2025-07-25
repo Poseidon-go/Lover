@@ -324,3 +324,28 @@ le Responsive */
         transform: scale(0.95);
     }
 }
+
+/* Prevent zoom on input focus and button tap */
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Prevent double-tap zoom */
+.btn {
+    touch-action: manipulation;
+}
+
+/* Prevent text selection on touch */
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
